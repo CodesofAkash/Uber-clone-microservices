@@ -1,6 +1,5 @@
 const http = require('http');
 const app = require('./app');
-const mongoose = require('mongoose');
 
 const server = http.createServer(app);
 
